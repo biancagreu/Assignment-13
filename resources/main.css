@@ -1,0 +1,148 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.header-img-wrapper {
+  background-image: url(../assets/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50%;
+}
+.piggy-img-wrapper {
+  background-image: url(../assets/icon-piggy-bank.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-top: 70px;
+  margin-right: 150px;
+}
+
+h1 {
+  color: white;
+  margin: 0;
+  padding: 80px 0 10px 30px;
+  font-weight: lighter;
+}
+
+h2 {
+  color: white;
+  font-size: 15px;
+  margin: 0px;
+  padding-left: 30px;
+}
+
+.shop-button {
+  background-color: white;
+  border-radius: 40px;
+  width: max-content;
+  padding: 10px 25px;
+  margin: 30px 0 0 30px;
+}
+header {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 50px 0;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  border-radius: 30px;
+  background-color: white;
+  padding: 10px 20px 10px 20px;
+}
+a:hover {
+  border-radius: 30px;
+  background-color: #f8d9e0;
+  padding: 10px 25px 10px 25px;
+}
+.coats-button {
+  border-radius: 30px;
+  background-color: #f8d9e0;
+  padding: 10px 25px 10px 25px;
+}
+
+.coats-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.top {
+  background-image: url(../assets/coats/coat-1.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 300px;
+}
+
+.winter {
+  background-image: url(../assets/coats/coat-2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 300px;
+}
+
+.woolen {
+  background-image: url(../assets/coats/coat-3.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 300px;
+}
+
+.blazer {
+  background-image: url(../assets/coats/coat-4.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 300px;
+}
+
+.details-coat {
+  background-color: white;
+  margin-top: 150%;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  color: #828282;
+}
+
+.categories-wrapper {
+  margin-top: 80px;
+}
+h3 {
+  margin-left: 105px;
+  color: #333333;
+  font-weight: lighter;
+  font-size: 30px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
