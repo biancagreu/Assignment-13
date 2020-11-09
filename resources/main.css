@@ -86,6 +86,7 @@ a:hover {
   justify-content: space-evenly;
 }
 
+/* aici ai foarte mult cod repetitiv, poti sa pui o clasa comuna de exemplu coat-background si sa dai acolo toate regulile comune, iar cele specifice de acum sale folosesti strict pentru background-image */
 .top {
   background-image: url(../assets/coats/coat-1.jpg);
   background-repeat: no-repeat;
