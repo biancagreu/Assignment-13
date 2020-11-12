@@ -23,8 +23,8 @@ body {
   background-image: url(../assets/icon-piggy-bank.png);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   float: right;
   margin-top: 70px;
   margin-right: 150px;
@@ -85,39 +85,24 @@ a:hover {
   align-items: center;
   justify-content: space-evenly;
 }
-
 .top {
   background-image: url(../assets/coats/coat-1.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 200px;
-  height: 300px;
 }
-
 .winter {
   background-image: url(../assets/coats/coat-2.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 200px;
-  height: 300px;
 }
-
 .woolen {
   background-image: url(../assets/coats/coat-3.jpg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 200px;
-  height: 300px;
 }
-
 .blazer {
   background-image: url(../assets/coats/coat-4.jpg);
+}
+.coat-background {
   background-repeat: no-repeat;
   background-size: contain;
   width: 200px;
   height: 300px;
 }
-
 .details-coat {
   background-color: white;
   margin-top: 150%;
@@ -141,8 +126,162 @@ h3 {
 
 .categories {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.details-categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e7e8e9;
+  width: 200px;
+  height: 100px;
+  margin-bottom: 50px;
+  border-radius: 10%;
+}
+
+#overlay {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close-logo {
+  background-image: url(../assets/close.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 60px;
+  height: 60px;
+  float: right;
+  margin: 10px 20px 0 0;
+}
+.background-img-overlay {
+  width: 350px;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 500px;
+}
+.img-overlay {
+  background-image: url(../assets/coats/coat-4.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  width: 380px;
+  height: 100%;
+  margin: 0px;
+}
+.background-overlay {
+  width: 100%;
+  height: 160%;
+  background-color: white;
+  border-radius: 10%;
+  margin-top: 60%;
+}
+
+h4{
+  font-size: 25px;
+  padding: 30px 0 5px 20px;
+  margin-bottom: 0px;
+}
+
+.blazer-coat-price{
+  color: #828282;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+h5{
+  font-size: 15px;
+  margin: 5px 0 10px 0;
+  padding-left: 20px;
+}
+
+.size-details-wrapper{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.size-details{
+  background-color: #e7e8e9 ;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border: 1px #e7e8e9 solid ;
+  border-right: 3px #C0C0C0  solid ;
+  border-bottom: 3px #C0C0C0  solid;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  padding: 5px 0 0 5px;
+}
+
+.buttons-wrapper{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  align-content: center;
+  font-size: 15px;
 
 }
+.buttons-details{
+  background-color: #e7e8e9;
+  margin-left: 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  padding: 10px 0 0 0;
+  text-align: center;
+}
+
+.pink-button-overlay-details{
+  background-color: #f8d9e0;
+} 
+
+.composition-country-wrapper{
+  margin: 20px 20px 5px 20px;
+  font-size: 15px;
+
+}
+.composition-country{
+  display: flex;
+  justify-content: space-between;
+}
+.composition-country-details{
+  display: flex;
+  justify-content: space-between;
+  color:  #828282;
+  margin-top:5px;
+  
+}
+
+.care-details{
+  margin: 10px 20px;
+  font-size: 15px;
+}
+h6{
+  margin: 0 0 5px 0;
+  font-size: 15px;
+}
+p{
+  margin-top: 10px;
+}
+.add-to-cart-button {
+  background-color: #333333;
+  width: 290px;
+  height: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 20px;
+  color: #C0C0C0;
+  font-size: 15px;
 
