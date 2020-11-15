@@ -141,8 +141,10 @@ h3 {
   border-radius: 10%;
 }
 
+/* avand in vedere ca e pozitionat deasupra paginii, nu era necesar sa faci inca o pagina html pentru asta, puteai sa adaugi overlay in prima, sa te obisnuiesti cu stilul acesta de structurare, pentru ca vizibilitatea va fi manipulata prin javascript */
 #overlay {
   position: fixed;
+  /* acesta este un div, are display: block de default, nu este necesar sa iti aglomerezi css-ul inutil */
   display: block;
   width: 100%;
   height: 100%;
@@ -167,6 +169,7 @@ h3 {
   height: 40%;
   display: flex;
   justify-content: center;
+  /* flex te-ar ajuta aici sa centrezi, nu recomand in nici un fel de situatie un margin de 500px, valori manuale asa de mari nu au cum sa functione ok pe rezolutii diferite, ti-am si atasat un screenshot sa vezi cum vad eu ca sa intelegi  */
   margin: 20px 0 0 500px;
 }
 .img-overlay {
@@ -179,6 +182,7 @@ h3 {
 }
 .background-overlay {
   width: 100%;
+  /* nu inteleg height-ul acesta, dar pe langa asta nu te sfatuiesc sa dai un height la parent, lasa sa fie continutul cel care stabileste height-ul. poti sa vezi si in screenshot-ul atasat spatiul alb e mult mai mult decat iti trebuie, aceestea sunt detalii care contribuie la consistenta site-urilor tale */
   height: 160%;
   background-color: white;
   border-radius: 10%;
@@ -274,9 +278,11 @@ p{
 }
 .add-to-cart-button {
   background-color: #333333;
+  /* este ok sa teduci la 100% din parinte cu width-ul, nu sa folosesti o marime fixa in cazul acesta */
   width: 290px;
   height: 10px;
   padding: 10px;
+  /* cu flex implementezi layout pentru un container, .add-to-cart-button este doar un element fara children nodes */
   display: flex;
   align-items: center;
   justify-content: center;
